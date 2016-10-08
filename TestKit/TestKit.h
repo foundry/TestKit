@@ -18,5 +18,4 @@ FOUNDATION_EXPORT const unsigned char TestKitVersionString[];
 
 
 #import <TestKit/TestHelloWorld.h>
-#import <TestKitModels/TestKitModels.h>
-#import <TestKitViews/TestKitViews.h>
+
