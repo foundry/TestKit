@@ -20,6 +20,7 @@
 		AB3D87631DA7B443001E1BBB /* TKView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB3D87581DA7B1EA001E1BBB /* TKView.h */; };
 		AB3D87641DA7B4DA001E1BBB /* libTestKitModels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3D87421DA7B1C6001E1BBB /* libTestKitModels.a */; };
 		AB3D87651DA7B4DA001E1BBB /* libTestKitViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3D874F1DA7B1D5001E1BBB /* libTestKitViews.a */; };
+		AB9200AA1DA97A460039DB12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9200A91DA97A460039DB12 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		AB3D87591DA7B1EA001E1BBB /* TKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKView.m; sourceTree = "<group>"; };
 		AB3D875B1DA7B201001E1BBB /* TKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKModel.h; sourceTree = "<group>"; };
 		AB3D875C1DA7B201001E1BBB /* TKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKModel.m; sourceTree = "<group>"; };
+		AB9200A91DA97A460039DB12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9200AA1DA97A460039DB12 /* UIKit.framework in Frameworks */,
 				AB3D87641DA7B4DA001E1BBB /* libTestKitModels.a in Frameworks */,
 				AB3D87651DA7B4DA001E1BBB /* libTestKitViews.a in Frameworks */,
 			);
@@ -116,6 +119,7 @@
 				AB3D87431DA7B1C6001E1BBB /* TestKitModels */,
 				AB3D87501DA7B1D5001E1BBB /* TestKitViews */,
 				AB3D86751DA6BA40001E1BBB /* Products */,
+				AB9200A81DA97A450039DB12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +164,14 @@
 				AB3D87591DA7B1EA001E1BBB /* TKView.m */,
 			);
 			path = TestKitViews;
+			sourceTree = "<group>";
+		};
+		AB9200A81DA97A450039DB12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9200A91DA97A460039DB12 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
