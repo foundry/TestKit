@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#if !defined(GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS)
+#define GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS 1
+#endif
 #import "Veep.pbobjc.h"
 
 @interface TestProtobuf : NSObject

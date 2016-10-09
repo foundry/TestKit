@@ -23,8 +23,7 @@
 		AB9200AA1DA97A460039DB12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9200A91DA97A460039DB12 /* UIKit.framework */; };
 		AB92013B1DAA54800039DB12 /* TestProtobuf.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92013A1DAA54800039DB12 /* TestProtobuf.m */; };
 		AB92013C1DAA54800039DB12 /* TestProtobuf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB9201391DAA54800039DB12 /* TestProtobuf.h */; };
-		AB9201441DAA55190039DB12 /* Veep.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9201421DAA55190039DB12 /* Veep.pbobjc.m */; };
-		AB9201471DAA55240039DB12 /* VPKProtobuf.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9201461DAA55240039DB12 /* VPKProtobuf.m */; };
+		AB92014A1DAA575D0039DB12 /* Veep.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9201491DAA575D0039DB12 /* Veep.pbobjc.m */; };
 		D63BE2D9AF905C7465497ADB /* libPods-TestProtobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B65A0FB05AA5D8AEF40B65C /* libPods-TestProtobuf.a */; };
 /* End PBXBuildFile section */
 
@@ -104,11 +103,8 @@
 		AB9201371DAA547D0039DB12 /* libTestProtobuf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestProtobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9201391DAA54800039DB12 /* TestProtobuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtobuf.h; sourceTree = "<group>"; };
 		AB92013A1DAA54800039DB12 /* TestProtobuf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProtobuf.m; sourceTree = "<group>"; };
-		AB9201411DAA55190039DB12 /* Veep.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Veep.pbobjc.h; sourceTree = "<group>"; };
-		AB9201421DAA55190039DB12 /* Veep.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Veep.pbobjc.m; sourceTree = "<group>"; };
-		AB9201431DAA55190039DB12 /* veep.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = veep.proto; sourceTree = "<group>"; };
-		AB9201451DAA55240039DB12 /* VPKProtobuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPKProtobuf.h; sourceTree = "<group>"; };
-		AB9201461DAA55240039DB12 /* VPKProtobuf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPKProtobuf.m; sourceTree = "<group>"; };
+		AB9201481DAA575D0039DB12 /* Veep.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Veep.pbobjc.h; sourceTree = "<group>"; };
+		AB9201491DAA575D0039DB12 /* Veep.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Veep.pbobjc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,23 +213,12 @@
 		AB9201381DAA54800039DB12 /* TestProtobuf */ = {
 			isa = PBXGroup;
 			children = (
-				AB9201451DAA55240039DB12 /* VPKProtobuf.h */,
-				AB9201461DAA55240039DB12 /* VPKProtobuf.m */,
-				AB9201401DAA55190039DB12 /* Protobuf */,
+				AB9201481DAA575D0039DB12 /* Veep.pbobjc.h */,
+				AB9201491DAA575D0039DB12 /* Veep.pbobjc.m */,
 				AB9201391DAA54800039DB12 /* TestProtobuf.h */,
 				AB92013A1DAA54800039DB12 /* TestProtobuf.m */,
 			);
 			path = TestProtobuf;
-			sourceTree = "<group>";
-		};
-		AB9201401DAA55190039DB12 /* Protobuf */ = {
-			isa = PBXGroup;
-			children = (
-				AB9201411DAA55190039DB12 /* Veep.pbobjc.h */,
-				AB9201421DAA55190039DB12 /* Veep.pbobjc.m */,
-				AB9201431DAA55190039DB12 /* veep.proto */,
-			);
-			path = Protobuf;
 			sourceTree = "<group>";
 		};
 		DCD69A8012ACB5AF8CB3A47D /* Pods */ = {
@@ -455,8 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9201441DAA55190039DB12 /* Veep.pbobjc.m in Sources */,
-				AB9201471DAA55240039DB12 /* VPKProtobuf.m in Sources */,
+				AB92014A1DAA575D0039DB12 /* Veep.pbobjc.m in Sources */,
 				AB92013B1DAA54800039DB12 /* TestProtobuf.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
