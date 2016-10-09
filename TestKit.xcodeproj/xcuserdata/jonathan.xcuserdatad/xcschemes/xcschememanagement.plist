@@ -7,19 +7,24 @@
 		<key>PJModel.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>3</integer>
 		</dict>
 		<key>TestKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>TestKitModels.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>4</integer>
 		</dict>
 		<key>TestKitViews.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>TestProtobuf.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
@@ -27,12 +32,12 @@
 		<key>TestStatic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>TestSubKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -63,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>AB3D874E1DA7B1D5001E1BBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB9201361DAA547D0039DB12</key>
 		<dict>
 			<key>primary</key>
 			<true/>
