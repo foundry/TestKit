@@ -63,6 +63,7 @@ Pod::Spec.new do |s|
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
+  s.platform     = :ios
 
   # s.platform     = :ios
   # s.platform     = :ios, "9.0"
@@ -91,9 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TestKit", "Classes/**/*.{h,m}"
-  s.exclude_files = "TestKit/Exclude"
-
+ 
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -124,6 +123,29 @@ Pod::Spec.new do |s|
   # s.libraries = "iconv", "xml2"
 
 
+# ――― Subspecs ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+
+
+  s.subspec 'Core' do |ss|
+    	
+    	 ss.source_files  = "TestKit", "Classes/**/*.{h,m}"
+         ss.exclude_files = "TestKit/Exclude"
+         ss.dependency 'TestKit/Views'
+         ss.dependency 'TestKit/Models'
+    	 ss.requires_arc = true
+	end
+	
+  s.subspec 'Views' do |ss|
+    	ss.source_files  = "TestKitViews"
+    	ss.requires_arc = true
+	end
+	
+	s.subspec 'Models' do |ss|
+    	ss.source_files  = "TestKitModels"
+    	ss.requires_arc = true
+	end
+
+
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
@@ -134,18 +156,8 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "Views"
-  s.dependency "Models"
+  #s.dependency "Views"
+  #s.dependency "Models"
   
-  # ――― Subspecs ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.subspec 'Views' do |ss|
-    	ss.source_files  = "TestKitViews"
-    	ss.requires_arc = false
-	end
-	
-	s.subspec 'Models' do |ss|
-    	ss.source_files  = "TestKitModels"
-    	ss.requires_arc = false
-	end
-
+  
 end

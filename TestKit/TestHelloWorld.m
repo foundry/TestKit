@@ -13,7 +13,17 @@
 - (void)helloWorld {
     NSLog(@"%s",__func__);
     
+
     
+}
+
+- (TKView*)view {
+    TKView* view = [[TKView alloc] init];
+    return view;
+}
+- (TKModel*)model {
+    TKModel* model = [[TKModel alloc] init];
+    return model;
 }
 
 @end

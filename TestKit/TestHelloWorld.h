@@ -7,8 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TestKitModels.h"
+#import "TestKitViews.h"
 
 @interface TestHelloWorld : NSObject
 
 - (void)helloWorld;
+
+- (TKView*)view;
+- (TKModel*)model;
 @end
