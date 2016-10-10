@@ -132,6 +132,7 @@ Pod::Spec.new do |s|
          ss.exclude_files = "TestKit/Exclude"
          ss.dependency 'TestKit/Views'
          ss.dependency 'TestKit/Models'
+         ss.dependency 'TestKit/Protobuf'
     	 ss.requires_arc = true
 	end
 	

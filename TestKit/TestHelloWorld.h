@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "TestKitModels.h"
 #import "TestKitViews.h"
+#import "TestProtobuf.h"
+
 
 @interface TestHelloWorld : NSObject
 
