@@ -147,7 +147,7 @@ s.source       = { :git => "https://github.com/foundry/TestKit.git", :branch => 
 	end
 	
 	s.subspec 'Protobuf' do |ss|
-    	ss.source_files  = "TestProtobuf"
+    	ss.source_files  = "TestProtobufs"
     	ss.requires_arc = false
     	ss.dependency 'Protobuf', '3.1.0'
 	end
