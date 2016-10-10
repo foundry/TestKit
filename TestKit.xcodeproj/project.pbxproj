@@ -24,7 +24,8 @@
 		AB9201531DAA5C580039DB12 /* TestKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AB9201521DAA5C580039DB12 /* TestKit.podspec */; };
 		ABE98C4A1DAB3507003900AB /* TestProtobufs.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE98C491DAB3507003900AB /* TestProtobufs.m */; };
 		ABE98C4B1DAB3507003900AB /* TestProtobufs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABE98C481DAB3507003900AB /* TestProtobufs.h */; };
-		ABE98C511DAB352F003900AB /* Veep.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE98C501DAB352F003900AB /* Veep.pbobjc.m */; };
+		ABE98C511DAB352F003900AB /* Veep.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE98C501DAB352F003900AB /* Veep.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ABE98C541DAB36EB003900AB /* libTestProtobufs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE98C461DAB3507003900AB /* libTestProtobufs.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = AB3D874E1DA7B1D5001E1BBB;
 			remoteInfo = TestKitViews;
+		};
+		ABE98C521DAB36E0003900AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3D866B1DA6BA40001E1BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE98C451DAB3507003900AB;
+			remoteInfo = TestProtobufs;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -109,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE98C541DAB36EB003900AB /* libTestProtobufs.a in Frameworks */,
 				AB9200AA1DA97A460039DB12 /* UIKit.framework in Frameworks */,
 				AB3D87641DA7B4DA001E1BBB /* libTestKitModels.a in Frameworks */,
 				AB3D87651DA7B4DA001E1BBB /* libTestKitViews.a in Frameworks */,
@@ -242,6 +251,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				ABE98C531DAB36E0003900AB /* PBXTargetDependency */,
 				AB3D87691DA7B53C001E1BBB /* PBXTargetDependency */,
 				AB3D87671DA7B538001E1BBB /* PBXTargetDependency */,
 			);
@@ -408,6 +418,11 @@
 			isa = PBXTargetDependency;
 			target = AB3D874E1DA7B1D5001E1BBB /* TestKitViews */;
 			targetProxy = AB3D87681DA7B53C001E1BBB /* PBXContainerItemProxy */;
+		};
+		ABE98C531DAB36E0003900AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE98C451DAB3507003900AB /* TestProtobufs */;
+			targetProxy = ABE98C521DAB36E0003900AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -647,6 +662,7 @@
 				ABE98C4D1DAB3507003900AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
