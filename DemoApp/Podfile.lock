@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestKit: f20003ecb5d44b1eeb09e0af4acce348cef9a55c
+  TestKit: 5803770023a164fe3bd99ddde96804bdb589e8a4
 
 PODFILE CHECKSUM: e0fed6e1ac13264691a51197f7aeed879c0d6dce
 

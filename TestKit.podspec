@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-s.source       = { :git => "https://github.com/foundry/TestKit.git", :branch => "protobufs" }
+s.source       = { :git => "https://github.com/foundry/TestKit.git", :branch => "protobufs_2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,7 +132,7 @@ s.source       = { :git => "https://github.com/foundry/TestKit.git", :branch => 
          ss.exclude_files = "TestKit/Exclude"
          ss.dependency 'TestKit/Views'
          ss.dependency 'TestKit/Models'
-#        ss.dependency 'TestKit/Protobuf'
+         ss.dependency 'TestKit/Protobuf'
     	 ss.requires_arc = true
 	end
 	
@@ -146,11 +146,11 @@ s.source       = { :git => "https://github.com/foundry/TestKit.git", :branch => 
     	ss.requires_arc = true
 	end
 	
-#	s.subspec 'Protobuf' do |ss|
-#    	ss.source_files  = "TestProtobuf"
-#    	ss.requires_arc = false
-#    	ss.dependency 'Protobuf', '3.1.0'
-#	end
+	s.subspec 'Protobuf' do |ss|
+    	ss.source_files  = "TestProtobuf"
+    	ss.requires_arc = false
+    	ss.dependency 'Protobuf', '3.1.0'
+	end
 
 
 

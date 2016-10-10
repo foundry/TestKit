@@ -22,6 +22,9 @@
 		AB3D87651DA7B4DA001E1BBB /* libTestKitViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3D874F1DA7B1D5001E1BBB /* libTestKitViews.a */; };
 		AB9200AA1DA97A460039DB12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9200A91DA97A460039DB12 /* UIKit.framework */; };
 		AB9201531DAA5C580039DB12 /* TestKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AB9201521DAA5C580039DB12 /* TestKit.podspec */; };
+		ABE98C4A1DAB3507003900AB /* TestProtobufs.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE98C491DAB3507003900AB /* TestProtobufs.m */; };
+		ABE98C4B1DAB3507003900AB /* TestProtobufs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABE98C481DAB3507003900AB /* TestProtobufs.h */; };
+		ABE98C511DAB352F003900AB /* Veep.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE98C501DAB352F003900AB /* Veep.pbobjc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABE98C441DAB3507003900AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				ABE98C4B1DAB3507003900AB /* TestProtobufs.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +97,11 @@
 		AB3D875C1DA7B201001E1BBB /* TKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKModel.m; sourceTree = "<group>"; };
 		AB9200A91DA97A460039DB12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB9201521DAA5C580039DB12 /* TestKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestKit.podspec; sourceTree = "<group>"; };
+		ABE98C461DAB3507003900AB /* libTestProtobufs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestProtobufs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE98C481DAB3507003900AB /* TestProtobufs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtobufs.h; sourceTree = "<group>"; };
+		ABE98C491DAB3507003900AB /* TestProtobufs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProtobufs.m; sourceTree = "<group>"; };
+		ABE98C4F1DAB352F003900AB /* Veep.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Veep.pbobjc.h; sourceTree = "<group>"; };
+		ABE98C501DAB352F003900AB /* Veep.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Veep.pbobjc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +129,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABE98C431DAB3507003900AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -121,6 +146,7 @@
 				AB3D86761DA6BA40001E1BBB /* TestKit */,
 				AB3D87431DA7B1C6001E1BBB /* TestKitModels */,
 				AB3D87501DA7B1D5001E1BBB /* TestKitViews */,
+				ABE98C471DAB3507003900AB /* TestProtobufs */,
 				AB3D86751DA6BA40001E1BBB /* Products */,
 				AB9200A81DA97A450039DB12 /* Frameworks */,
 			);
@@ -132,6 +158,7 @@
 				AB3D86741DA6BA40001E1BBB /* TestKit.framework */,
 				AB3D87421DA7B1C6001E1BBB /* libTestKitModels.a */,
 				AB3D874F1DA7B1D5001E1BBB /* libTestKitViews.a */,
+				ABE98C461DAB3507003900AB /* libTestProtobufs.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,6 +202,17 @@
 				AB9200A91DA97A460039DB12 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABE98C471DAB3507003900AB /* TestProtobufs */ = {
+			isa = PBXGroup;
+			children = (
+				ABE98C4F1DAB352F003900AB /* Veep.pbobjc.h */,
+				ABE98C501DAB352F003900AB /* Veep.pbobjc.m */,
+				ABE98C481DAB3507003900AB /* TestProtobufs.h */,
+				ABE98C491DAB3507003900AB /* TestProtobufs.m */,
+			);
+			path = TestProtobufs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +284,23 @@
 			productReference = AB3D874F1DA7B1D5001E1BBB /* libTestKitViews.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		ABE98C451DAB3507003900AB /* TestProtobufs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE98C4E1DAB3507003900AB /* Build configuration list for PBXNativeTarget "TestProtobufs" */;
+			buildPhases = (
+				ABE98C421DAB3507003900AB /* Sources */,
+				ABE98C431DAB3507003900AB /* Frameworks */,
+				ABE98C441DAB3507003900AB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestProtobufs;
+			productName = TestProtobufs;
+			productReference = ABE98C461DAB3507003900AB /* libTestProtobufs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -268,6 +323,10 @@
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
+					ABE98C451DAB3507003900AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = AB3D866E1DA6BA40001E1BBB /* Build configuration list for PBXProject "TestKit" */;
@@ -285,6 +344,7 @@
 				AB3D86731DA6BA40001E1BBB /* TestKit */,
 				AB3D87411DA7B1C6001E1BBB /* TestKitModels */,
 				AB3D874E1DA7B1D5001E1BBB /* TestKitViews */,
+				ABE98C451DAB3507003900AB /* TestProtobufs */,
 			);
 		};
 /* End PBXProject section */
@@ -324,6 +384,15 @@
 			files = (
 				AB3D87531DA7B1D5001E1BBB /* TestKitViews.m in Sources */,
 				AB3D875A1DA7B1EA001E1BBB /* TKView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE98C421DAB3507003900AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE98C511DAB352F003900AB /* Veep.pbobjc.m in Sources */,
+				ABE98C4A1DAB3507003900AB /* TestProtobufs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +583,24 @@
 			};
 			name = Release;
 		};
+		ABE98C4C1DAB3507003900AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ABE98C4D1DAB3507003900AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -552,6 +639,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		ABE98C4E1DAB3507003900AB /* Build configuration list for PBXNativeTarget "TestProtobufs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE98C4C1DAB3507003900AB /* Debug */,
+				ABE98C4D1DAB3507003900AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

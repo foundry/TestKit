@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>TestProtobufs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>TestStatic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -68,6 +73,11 @@
 			<true/>
 		</dict>
 		<key>AB9201361DAA547D0039DB12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ABE98C451DAB3507003900AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

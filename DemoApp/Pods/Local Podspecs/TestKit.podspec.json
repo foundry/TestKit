@@ -1,0 +1,63 @@
+{
+  "name": "TestKit",
+  "version": "0.11",
+  "summary": "TestKit tests veeps.",
+  "description": "this library tests things",
+  "homepage": "https://github.com/foundry/TestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NSFoundry": "foundry.tv@gmail.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/foundry/TestKit.git",
+    "branch": "protobufs_2"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": [
+        "TestKit",
+        "Classes/**/*.{h,m}"
+      ],
+      "exclude_files": "TestKit/Exclude",
+      "dependencies": {
+        "TestKit/Views": [
+
+        ],
+        "TestKit/Models": [
+
+        ],
+        "TestKit/Protobuf": [
+
+        ]
+      },
+      "requires_arc": true
+    },
+    {
+      "name": "Views",
+      "source_files": "TestKitViews",
+      "requires_arc": true
+    },
+    {
+      "name": "Models",
+      "source_files": "TestKitModels",
+      "requires_arc": true
+    },
+    {
+      "name": "Protobuf",
+      "source_files": "TestProtobuf",
+      "requires_arc": false,
+      "dependencies": {
+        "Protobuf": [
+          "3.1.0"
+        ]
+      }
+    }
+  ]
+}
