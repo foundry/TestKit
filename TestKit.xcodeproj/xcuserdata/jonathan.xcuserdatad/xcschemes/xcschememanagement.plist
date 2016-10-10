@@ -24,11 +24,6 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>TestProtobuf.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
-		</dict>
 		<key>TestStatic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
