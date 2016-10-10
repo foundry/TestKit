@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestKit"
-  s.version      = "0.9"
+  s.version      = "0.10"
   s.summary      = "TestKit tests veeps."
 
   # This description is used to generate tags and improve search results.
