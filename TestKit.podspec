@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestKit"
-  s.version      = "0.10"
+  s.version      = "0.11"
   s.summary      = "TestKit tests veeps."
 
   # This description is used to generate tags and improve search results.
@@ -132,7 +132,7 @@ Pod::Spec.new do |s|
          ss.exclude_files = "TestKit/Exclude"
          ss.dependency 'TestKit/Views'
          ss.dependency 'TestKit/Models'
-         ss.dependency 'TestKit/Protobuf'
+#        ss.dependency 'TestKit/Protobuf'
     	 ss.requires_arc = true
 	end
 	
@@ -146,11 +146,11 @@ Pod::Spec.new do |s|
     	ss.requires_arc = true
 	end
 	
-	s.subspec 'Protobuf' do |ss|
-    	ss.source_files  = "TestProtobuf"
-    	ss.requires_arc = false
-    	ss.dependency 'Protobuf', '3.1.0'
-	end
+#	s.subspec 'Protobuf' do |ss|
+#    	ss.source_files  = "TestProtobuf"
+#    	ss.requires_arc = false
+#    	ss.dependency 'Protobuf', '3.1.0'
+#	end
 
 
 

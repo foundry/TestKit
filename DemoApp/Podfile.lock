@@ -1,0 +1,14 @@
+PODS:
+  - TestKit/Models (0.6)
+  - TestKit/Views (0.6)
+
+DEPENDENCIES:
+  - TestKit/Models
+  - TestKit/Views
+
+SPEC CHECKSUMS:
+  TestKit: aac0d4f9035c4bb87410d2572002f587b5fcb2fe
+
+PODFILE CHECKSUM: 567dda6b369c4170b6e1f073ebc472897324bb13
+
+COCOAPODS: 1.1.0.rc.2

@@ -1,0 +1,12 @@
+PODS:
+  - Protobuf (3.1.0)
+
+DEPENDENCIES:
+  - Protobuf (= 3.1.0)
+
+SPEC CHECKSUMS:
+  Protobuf: 265e9977d04a83eba9cefb0bed3ad07e41033b4a
+
+PODFILE CHECKSUM: 20d999baa2c55d61d9fc6e5a49a1a235aa028595
+
+COCOAPODS: 1.1.0.rc.2
