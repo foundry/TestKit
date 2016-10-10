@@ -10,8 +10,8 @@ source 'https://github.com/foundry/Specs.git'
 target 'TestOtherApp' do
     #  pod 'TestKit/Core', :path => '../TestKit'
 
-   pod 'TestKit/Models', :git => 'https://github.com/foundry/TestKit.git', :branch => 'protobufs'
-   pod 'TestKit/Views', :git => 'https://github.com/foundry/TestKit.git',  :branch => 'protobufs'
+pod 'TestKit/Models' #, :git => 'https://github.com/foundry/TestKit.git', :branch => 'protobufs'
+pod 'TestKit/Views' #, :git => 'https://github.com/foundry/TestKit.git',  :branch => 'protobufs'
   # pod 'TestKit/Protobuf'  #,path => '../TestKit'
 
 end

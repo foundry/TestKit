@@ -3,22 +3,12 @@ PODS:
   - TestKit/Views (0.11)
 
 DEPENDENCIES:
-  - TestKit/Models (from `https://github.com/foundry/TestKit.git`, branch `protobufs`)
-  - TestKit/Views (from `https://github.com/foundry/TestKit.git`, branch `protobufs`)
-
-EXTERNAL SOURCES:
-  TestKit:
-    :branch: protobufs
-    :git: https://github.com/foundry/TestKit.git
-
-CHECKOUT OPTIONS:
-  TestKit:
-    :commit: 8a17439f81907a6aae7b209b557a866ca772e54f
-    :git: https://github.com/foundry/TestKit.git
+  - TestKit/Models
+  - TestKit/Views
 
 SPEC CHECKSUMS:
-  TestKit: f20003ecb5d44b1eeb09e0af4acce348cef9a55c
+  TestKit: 92528bafaeb61c9db0fcce9af81b256f55763fcf
 
-PODFILE CHECKSUM: e38f2df27d7111f72a23463c906dc13eec04ca21
+PODFILE CHECKSUM: 52dcc36026f4f87f366a3e21dde94fda6b6ed404
 
 COCOAPODS: 1.1.0.rc.2
