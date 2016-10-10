@@ -8,10 +8,10 @@ source 'https://github.com/foundry/Specs.git'
 
 
 target 'TestKitDemoApp' do
-    #  pod 'TestKit/Core', :path => '../'
+   # pod 'TestKit/Core',   :path => '../'
 
-   pod 'TestKit/Models'  #,path => '../'
-   pod 'TestKit/Views'  #,path => '../'
+   pod 'TestKit/Models', :path => '../'
+   pod 'TestKit/Views',  :path => '../'
   # pod 'TestKit/Protobuf'  #,path => '../'
 
 end

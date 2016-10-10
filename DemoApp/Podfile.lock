@@ -1,14 +1,18 @@
 PODS:
-  - TestKit/Models (0.6)
-  - TestKit/Views (0.6)
+  - TestKit/Models (0.11)
+  - TestKit/Views (0.11)
 
 DEPENDENCIES:
-  - TestKit/Models
-  - TestKit/Views
+  - TestKit/Models (from `../`)
+  - TestKit/Views (from `../`)
+
+EXTERNAL SOURCES:
+  TestKit:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  TestKit: aac0d4f9035c4bb87410d2572002f587b5fcb2fe
+  TestKit: f20003ecb5d44b1eeb09e0af4acce348cef9a55c
 
-PODFILE CHECKSUM: 567dda6b369c4170b6e1f073ebc472897324bb13
+PODFILE CHECKSUM: e0fed6e1ac13264691a51197f7aeed879c0d6dce
 
 COCOAPODS: 1.1.0.rc.2

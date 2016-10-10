@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C86368AB823BC52203349B1C7857839 /* TestKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7214272BBA6BCB483F1489951344CBA /* TestKit-dummy.m */; };
-		74F6CC570DDCC9C9DF8E6E3817BDBE07 /* TKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB0628999206F87408D9558547CBE60 /* TKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E8AB740E9712C4C6A01D45B21E2ED95 /* TKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9831DEA8034058217302E6C70E558136 /* TKView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8D133F08D251CB682356D13C8AE4DEBC /* TestKitModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F3A6AFA09EE91A4AD8FFC514CC817 /* TestKitModels.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		09903679D6A5A5A735771C53E5AA24B4 /* TKView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BF70117C67E33932136601B84E49F5 /* TKView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4EDD0941FA623007728506C406C4CA62 /* TKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A075C6E3C7F2853BE7E8B79DD28C4B1 /* TKModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5DABB1F5AC449A9F2F78072AF64412C9 /* TestKitModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D88BFF111C6C508B2DD1A9266986B4 /* TestKitModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E12E74D32F3885E330A6F7A77F46AD6 /* TKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2404F3A9DAC73F6BE5B22313AD822F97 /* TKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720CD177B581008FEB4CBD77517F844A /* TestKitModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 688A24F116622D84E5C315ABFDDB1102 /* TestKitModels.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		735564B9FDAF5D9D3441788BDAE9F87C /* TKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F9F6DA5EC611D715465873C41340A2 /* TKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		907596F48D9812D98DF4287C25BF3AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A866C6C897FE908A382D2C55C4D9DFB2 /* TestKitViews.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F17E5651504AF19A225C79BBC6ACC7 /* TestKitViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C969BB90ED5C1D23EC8C255DD4B06233 /* Pods-TestKitDemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E949B5BA78BF05F4C0D2FB55D2FA382F /* Pods-TestKitDemoApp-dummy.m */; };
-		D74C8116B45434EA20C7531FD2854BE7 /* TestKitModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 8814A43BC5A63F970B8BAAECEEA09A76 /* TestKitModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5BEB82A1A8CA4247392927C56560A66 /* TestKitViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDFD67252F98C62F9F75E6EF4615E50 /* TestKitViews.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E893C36697E3FFD009A88FDE6009BA14 /* TestKitViews.h in Headers */ = {isa = PBXBuildFile; fileRef = A1426127ACA2D2A20CABB7958BBC52A4 /* TestKitViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8E1588BE36A1152D0B53CD9E76B6B79 /* TKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B631108A07B0E448236F4485BC92EAB /* TKModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F2EC67B7D63B46A6A0380A68DF5398B2 /* TKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9C1BAF139A69B3DEFEBA04E7B53D12 /* TKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF71DCAB67E06473157395686B6C3451 /* TestKitViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 532EF8B154B60376C92B30D7D85598B9 /* TestKitViews.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F8F1AAC91EA21429C29C547827B55142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FCE8EBD44291DEB4D7BB4C584D6E5727 /* TestKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7822C96FD7E80C5ACBF75B065C2E2E /* TestKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,28 +32,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B631108A07B0E448236F4485BC92EAB /* TKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKModel.m; path = TestKitModels/TKModel.m; sourceTree = "<group>"; };
+		2404F3A9DAC73F6BE5B22313AD822F97 /* TKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKView.h; sourceTree = "<group>"; };
 		2907A5A09EA507572DB8F041E453224C /* Pods-TestKitDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestKitDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		2A075C6E3C7F2853BE7E8B79DD28C4B1 /* TKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKModel.m; sourceTree = "<group>"; };
 		34E03F3244B76B4CE07DF1C9D20ED158 /* libPods-TestKitDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestKitDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8814A43BC5A63F970B8BAAECEEA09A76 /* TestKitModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestKitModels.h; path = TestKitModels/TestKitModels.h; sourceTree = "<group>"; };
-		8A0F3A6AFA09EE91A4AD8FFC514CC817 /* TestKitModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestKitModels.m; path = TestKitModels/TestKitModels.m; sourceTree = "<group>"; };
-		8D9C1BAF139A69B3DEFEBA04E7B53D12 /* TKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKView.h; path = TestKitViews/TKView.h; sourceTree = "<group>"; };
+		532EF8B154B60376C92B30D7D85598B9 /* TestKitViews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TestKitViews.m; sourceTree = "<group>"; };
+		688A24F116622D84E5C315ABFDDB1102 /* TestKitModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TestKitModels.m; sourceTree = "<group>"; };
+		739FB309B71D44C82777DF513FCAFA3C /* TestKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestKit-prefix.pch"; sourceTree = "<group>"; };
+		75F9F6DA5EC611D715465873C41340A2 /* TKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TKModel.h; sourceTree = "<group>"; };
+		82D88BFF111C6C508B2DD1A9266986B4 /* TestKitModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestKitModels.h; sourceTree = "<group>"; };
 		92AFA62F4BED06C00A991C93CB13C44F /* Pods-TestKitDemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestKitDemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F9AA9111C5A72A49864E7AD9AC3A71 /* TestKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestKit.xcconfig; sourceTree = "<group>"; };
-		9831DEA8034058217302E6C70E558136 /* TKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKView.m; path = TestKitViews/TKView.m; sourceTree = "<group>"; };
-		9BDFD67252F98C62F9F75E6EF4615E50 /* TestKitViews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestKitViews.m; path = TestKitViews/TestKitViews.m; sourceTree = "<group>"; };
+		992B155563453D1C7ED4645FFDCBFA3E /* TestKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestKit.xcconfig; sourceTree = "<group>"; };
 		9F9AD82FBF1343F50FDF3B931FFA74D4 /* Pods-TestKitDemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestKitDemoApp-frameworks.sh"; sourceTree = "<group>"; };
-		A1426127ACA2D2A20CABB7958BBC52A4 /* TestKitViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestKitViews.h; path = TestKitViews/TestKitViews.h; sourceTree = "<group>"; };
 		A235BABC90063C139685083E923F698B /* Pods-TestKitDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestKitDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		BAB0628999206F87408D9558547CBE60 /* TKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKModel.h; path = TestKitModels/TKModel.h; sourceTree = "<group>"; };
-		C7214272BBA6BCB483F1489951344CBA /* TestKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestKit-dummy.m"; sourceTree = "<group>"; };
+		B0F17E5651504AF19A225C79BBC6ACC7 /* TestKitViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestKitViews.h; sourceTree = "<group>"; };
+		CA7822C96FD7E80C5ACBF75B065C2E2E /* TestKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestKit-dummy.m"; sourceTree = "<group>"; };
 		CC3DBE4FFF5F8F43DBF5DE88A2FBDCBD /* libTestKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D6771C97A7F54FF8C13E30D38A5C82B3 /* TestKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestKit-prefix.pch"; sourceTree = "<group>"; };
 		E949B5BA78BF05F4C0D2FB55D2FA382F /* Pods-TestKitDemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestKitDemoApp-dummy.m"; sourceTree = "<group>"; };
 		EA8956F3DB54B54A4D0F843335210D45 /* Pods-TestKitDemoApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestKitDemoApp-resources.sh"; sourceTree = "<group>"; };
 		EB72ADD4B56225882CE9A50F93E7F493 /* Pods-TestKitDemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestKitDemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3BF70117C67E33932136601B84E49F5 /* TKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TKView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +85,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0BE200280886206E485D5718A1216B66 /* TestKitModels */ = {
+			isa = PBXGroup;
+			children = (
+				82D88BFF111C6C508B2DD1A9266986B4 /* TestKitModels.h */,
+				688A24F116622D84E5C315ABFDDB1102 /* TestKitModels.m */,
+				75F9F6DA5EC611D715465873C41340A2 /* TKModel.h */,
+				2A075C6E3C7F2853BE7E8B79DD28C4B1 /* TKModel.m */,
+			);
+			path = TestKitModels;
+			sourceTree = "<group>";
+		};
 		168632EAD47B6FAE09D062C061604A98 /* Pods-TestKitDemoApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,17 +119,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39AFB2F3D292A6B9F2085E47175311A1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8814A43BC5A63F970B8BAAECEEA09A76 /* TestKitModels.h */,
-				8A0F3A6AFA09EE91A4AD8FFC514CC817 /* TestKitModels.m */,
-				BAB0628999206F87408D9558547CBE60 /* TKModel.h */,
-				0B631108A07B0E448236F4485BC92EAB /* TKModel.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,36 +127,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		58921E5DD859FC7DCAD6DE7E3877218A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A1426127ACA2D2A20CABB7958BBC52A4 /* TestKitViews.h */,
-				9BDFD67252F98C62F9F75E6EF4615E50 /* TestKitViews.m */,
-				8D9C1BAF139A69B3DEFEBA04E7B53D12 /* TKView.h */,
-				9831DEA8034058217302E6C70E558136 /* TKView.m */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				91096E52D90C74A2DDF2C8A4FEA71C53 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C4FA61CE941B19AD3DE196BE7FB7B0A4 /* Pods */,
 				05AFB3DCA4905848573C82777790A741 /* Products */,
 				22387A199AF214ED580BBED6DB961916 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B401363EE85F5BC67AA8CEF13BF2FF18 /* TestKit */ = {
+		91096E52D90C74A2DDF2C8A4FEA71C53 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				39AFB2F3D292A6B9F2085E47175311A1 /* Models */,
-				DB87DB9442B598C0A92CFF02BC35DF98 /* Support Files */,
-				58921E5DD859FC7DCAD6DE7E3877218A /* Views */,
+				ACFE9A51B00B52061E366A2FCFBF6D92 /* TestKit */,
 			);
-			path = TestKit;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		918B89417FB5A16CB50ECF1CD4949430 /* TestKitViews */ = {
+			isa = PBXGroup;
+			children = (
+				B0F17E5651504AF19A225C79BBC6ACC7 /* TestKitViews.h */,
+				532EF8B154B60376C92B30D7D85598B9 /* TestKitViews.m */,
+				2404F3A9DAC73F6BE5B22313AD822F97 /* TKView.h */,
+				F3BF70117C67E33932136601B84E49F5 /* TKView.m */,
+			);
+			path = TestKitViews;
+			sourceTree = "<group>";
+		};
+		9F35B1D0975B2CB990DA100FC262B2D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				992B155563453D1C7ED4645FFDCBFA3E /* TestKit.xcconfig */,
+				CA7822C96FD7E80C5ACBF75B065C2E2E /* TestKit-dummy.m */,
+				739FB309B71D44C82777DF513FCAFA3C /* TestKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "DemoApp/Pods/Target Support Files/TestKit";
+			sourceTree = "<group>";
+		};
+		ACFE9A51B00B52061E366A2FCFBF6D92 /* TestKit */ = {
+			isa = PBXGroup;
+			children = (
+				B27D0744D298C1D10CACCBA9BF629F16 /* Models */,
+				9F35B1D0975B2CB990DA100FC262B2D6 /* Support Files */,
+				B3A396B16B0823B97FC04FECB7630839 /* Views */,
+			);
+			name = TestKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B27D0744D298C1D10CACCBA9BF629F16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BE200280886206E485D5718A1216B66 /* TestKitModels */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B3A396B16B0823B97FC04FECB7630839 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				918B89417FB5A16CB50ECF1CD4949430 /* TestKitViews */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -167,36 +203,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4FA61CE941B19AD3DE196BE7FB7B0A4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B401363EE85F5BC67AA8CEF13BF2FF18 /* TestKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		DB87DB9442B598C0A92CFF02BC35DF98 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				93F9AA9111C5A72A49864E7AD9AC3A71 /* TestKit.xcconfig */,
-				C7214272BBA6BCB483F1489951344CBA /* TestKit-dummy.m */,
-				D6771C97A7F54FF8C13E30D38A5C82B3 /* TestKit-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TestKit";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5A840AC7B10B239A5FE0A3BC01FE3045 /* Headers */ = {
+		6DA05F6C2FE5D2504F62DD0DA05165A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74C8116B45434EA20C7531FD2854BE7 /* TestKitModels.h in Headers */,
-				E893C36697E3FFD009A88FDE6009BA14 /* TestKitViews.h in Headers */,
-				74F6CC570DDCC9C9DF8E6E3817BDBE07 /* TKModel.h in Headers */,
-				F2EC67B7D63B46A6A0380A68DF5398B2 /* TKView.h in Headers */,
+				5DABB1F5AC449A9F2F78072AF64412C9 /* TestKitModels.h in Headers */,
+				A866C6C897FE908A382D2C55C4D9DFB2 /* TestKitViews.h in Headers */,
+				735564B9FDAF5D9D3441788BDAE9F87C /* TKModel.h in Headers */,
+				5E12E74D32F3885E330A6F7A77F46AD6 /* TKView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,9 +224,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18EF09231F6BD96B2FEF66582724190C /* Build configuration list for PBXNativeTarget "TestKit" */;
 			buildPhases = (
-				6BC2AF6F0E46089425A56D1E90C63480 /* Sources */,
+				2D21BE9BA7A39760E4EE6948F8AE49EB /* Sources */,
 				9C139F6FDE6E3DE4971D3FC6C61B3840 /* Frameworks */,
-				5A840AC7B10B239A5FE0A3BC01FE3045 /* Headers */,
+				6DA05F6C2FE5D2504F62DD0DA05165A7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -265,15 +282,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6BC2AF6F0E46089425A56D1E90C63480 /* Sources */ = {
+		2D21BE9BA7A39760E4EE6948F8AE49EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C86368AB823BC52203349B1C7857839 /* TestKit-dummy.m in Sources */,
-				8D133F08D251CB682356D13C8AE4DEBC /* TestKitModels.m in Sources */,
-				E5BEB82A1A8CA4247392927C56560A66 /* TestKitViews.m in Sources */,
-				E8E1588BE36A1152D0B53CD9E76B6B79 /* TKModel.m in Sources */,
-				7E8AB740E9712C4C6A01D45B21E2ED95 /* TKView.m in Sources */,
+				FCE8EBD44291DEB4D7BB4C584D6E5727 /* TestKit-dummy.m in Sources */,
+				720CD177B581008FEB4CBD77517F844A /* TestKitModels.m in Sources */,
+				CF71DCAB67E06473157395686B6C3451 /* TestKitViews.m in Sources */,
+				4EDD0941FA623007728506C406C4CA62 /* TKModel.m in Sources */,
+				09903679D6A5A5A735771C53E5AA24B4 /* TKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +339,7 @@
 		};
 		539EAAA4E79E33BF4C0A8F0B2FA9FC58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93F9AA9111C5A72A49864E7AD9AC3A71 /* TestKit.xcconfig */;
+			baseConfigurationReference = 992B155563453D1C7ED4645FFDCBFA3E /* TestKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -452,7 +469,7 @@
 		};
 		BEC81244C5D0BD698737BD58184557A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93F9AA9111C5A72A49864E7AD9AC3A71 /* TestKit.xcconfig */;
+			baseConfigurationReference = 992B155563453D1C7ED4645FFDCBFA3E /* TestKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
